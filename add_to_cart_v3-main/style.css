@@ -18,6 +18,10 @@ body {
 svg {
   width: 40px;
 }
+
+.ah-logo-svg {
+  width: 100%;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -41,7 +45,7 @@ header {
   right: -15px;
 }
 .title {
-  font-size: 50px;
+  font-size: 40px;
   font-family: "Frank Ruhl Libre", serif;
   font-weight: 800;
   color: #34251f;
