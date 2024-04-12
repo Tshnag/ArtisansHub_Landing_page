@@ -2322,6 +2322,14 @@
   max-width: 100%;
 }
 
+.card-click-redirect-to-cart:link, .card-click-redirect-to-cart:visited {
+  color: #34251f;
+}
+
+.card-click-redirect-to-cart:hover, .card-click-redirect-to-cart:active {
+  color: #665952;
+}
+
 
 
 .frame-wrapper14 {
