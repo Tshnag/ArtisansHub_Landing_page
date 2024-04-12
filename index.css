@@ -2168,6 +2168,12 @@
   justify-content: flex-start;
   max-width: 100%;
 }
+
+.pastel-long-sleeve-container {
+  align-items: center;
+  justify-content: center;
+}
+
 .frame-wrapper11 {
   align-self: stretch;
   flex-direction: row;
