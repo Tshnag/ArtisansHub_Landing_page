@@ -2158,11 +2158,11 @@
 
 .pastel-long-sleeve-container {
   /* display: flex; */
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
   max-width: 100%;
-  flex-direction: column;
-  gap: 0.806rem;
+  /* flex-direction: column;
+  gap: 0.806rem; */
 }
 .frame-wrapper11,
 .image-parent {
