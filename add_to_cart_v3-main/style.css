@@ -40,8 +40,9 @@ header {
   right: -15px;
 }
 .title {
-  font-size: 20px;
+  font-size: 40px;
   font-family: "Frank Ruhl Libre", serif;
+  font-weight: 800;
 }
 .listProduct .item img {
   width: 100%;
