@@ -1,0 +1,524 @@
+.sign-up-page-child {
+  height: 934px;
+  width: 667.7px;
+  position: relative;
+  border-radius: var(--br-xl) 0 0 var(--br-xl);
+  object-fit: contain;
+  mix-blend-mode: darken;
+  max-width: calc(100% - 560px);
+}
+.artisanshub-logo-icon {
+  height: 59px;
+  width: 71px;
+  position: relative;
+  object-fit: cover;
+}
+.artisanshub {
+  margin: 0;
+  align-self: stretch;
+  height: 37px;
+  position: relative;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.artisanshub-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0 0;
+}
+.artisans-hub-logo,
+.artisanshub-logo-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.artisanshub-logo-parent {
+  width: 310px;
+  justify-content: flex-start;
+}
+.artisans-hub-logo {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.create-account {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-gray);
+  text-align: left;
+}
+.password-input {
+  align-self: stretch;
+  height: 3px;
+  position: relative;
+  border-top: 3px solid var(--color-dodgerblue-200);
+  box-sizing: border-box;
+}
+.create-account-parent {
+  width: 238px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.signup-details-inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-11xs) var(--padding-xs) 0;
+}
+.username {
+  position: relative;
+  font-size: var(--font-size-xl);
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-gray);
+  text-align: left;
+  display: inline-block;
+  min-width: 105px;
+}
+.input-username-child {
+  height: 50px;
+  width: 452px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-royalblue);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.enter-username {
+  width: 159px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  height: 30px;
+  position: relative;
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 1;
+}
+.create-account-btn,
+.input-username {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.input-username {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-royalblue);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xl);
+}
+.create-account-btn {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.password {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-gray);
+  text-align: left;
+  display: inline-block;
+  min-width: 98px;
+}
+.input-password-child {
+  height: 50px;
+  width: 452px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-royalblue);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.enter-password {
+  width: 152px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  height: 30px;
+  position: relative;
+  text-transform: capitalize;
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 1;
+}
+.input-password,
+.password-container {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.input-password {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-royalblue);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xl);
+}
+.password-container {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.create-account1 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  text-transform: capitalize;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+}
+.create-account-btn1,
+.label-username {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.create-account-btn1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-xl);
+  background-color: var(--color-royalblue);
+  border-radius: var(--br-9xs);
+  flex-direction: row;
+  justify-content: center;
+  white-space: nowrap;
+}
+.create-account-btn1:hover {
+  background-color: var(--color-dodgerblue-100);
+}
+.label-username {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+  max-width: 100%;
+}
+.social-media-icons {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-dimgray-100);
+  box-sizing: border-box;
+}
+.social-media-icons-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs-5) 0 0;
+  box-sizing: border-box;
+  min-width: 108px;
+}
+.or-sign-in {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-poppins);
+  color: var(--color-dimgray-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 98px;
+}
+.frame-child {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-dimgray-100);
+  box-sizing: border-box;
+}
+.frame-parent,
+.line-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.line-wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-2xs-5) 0 0;
+  box-sizing: border-box;
+  min-width: 108px;
+}
+.frame-parent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 0 var(--padding-8xs);
+  gap: var(--gap-2xs);
+}
+.google-logo-streamline-ultima-icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  object-fit: cover;
+}
+.google-logo-streamline-ultima-wrapper {
+  height: 23.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-5) 0 0;
+  box-sizing: border-box;
+}
+.google {
+  position: relative;
+  font-size: var(--font-size-lg);
+  text-transform: capitalize;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 65px;
+}
+.google-btn {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: var(--padding-xs-5) var(--padding-31xl);
+  background-color: var(--color-white);
+  flex: 0.76;
+  border-radius: var(--br-9xs);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  min-width: 128px;
+}
+.facebook-logo-1-streamline-co-icon {
+  height: 26.5px;
+  width: 26.5px;
+  position: relative;
+  object-fit: cover;
+  min-height: 27px;
+}
+.facebook {
+  position: relative;
+  font-size: var(--font-size-lg);
+  text-transform: capitalize;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 88px;
+}
+.facebook-btn,
+.google-btn-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.facebook-btn {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: var(--padding-xs-5) var(--padding-16xl);
+  background-color: var(--color-white);
+  flex: 1;
+  border-radius: var(--br-9xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  min-width: 128px;
+}
+.facebook-btn:hover {
+  background-color: var(--color-gainsboro-100);
+  border: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+}
+.google-btn-parent {
+  align-self: stretch;
+  gap: var(--gap-39xl);
+}
+.already-have-an {
+  color: var(--color-gray);
+}
+.log-in {
+  text-decoration: underline;
+  color: var(--color-royalblue);
+}
+.already-have-an-container {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  text-align: left;
+}
+.already-have-an-account-log-i-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-9xs) 0 0;
+}
+.artisans-hub-logo-parent,
+.signup-details {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.signup-details {
+  margin: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-gray);
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: var(--padding-13xl) var(--padding-5xl) var(--padding-22xl)
+    var(--padding-7xl);
+  gap: var(--gap-3xl);
+}
+.artisans-hub-logo-parent {
+  gap: var(--gap-52xl);
+}
+.sign-up-page,
+.sign-up-page-inner,
+.signup-desktop {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.sign-up-page-inner {
+  width: 506px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-71xl) 0 0;
+  max-width: calc(100% - 722px);
+}
+.sign-up-page,
+.signup-desktop {
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+}
+.sign-up-page {
+  height: 934px;
+  width: 1285px;
+  border-radius: var(--br-6xl);
+  border: 1px solid var(--color-black);
+  flex-shrink: 0;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-99xl);
+  gap: var(--gap-35xl-5);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-gray);
+  font-family: var(--font-anek-gurmukhi);
+}
+.signup-desktop {
+  width: 100%;
+  position: relative;
+  justify-content: center;
+  padding: 74px var(--padding-xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .sign-up-page {
+    padding-bottom: 77px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .sign-up-page-child {
+    display: none;
+    max-width: 100%;
+  }
+  .artisanshub {
+    font-size: var(--font-size-13xl);
+  }
+  .create-account {
+    font-size: var(--font-size-5xl);
+  }
+  .sign-up-page-inner {
+    display: none;
+    padding-top: var(--padding-39xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 725px) {
+  .signup-details {
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .artisans-hub-logo-parent {
+    gap: 35px 71px;
+  }
+  .sign-up-page {
+    gap: 54.5px 27px;
+    padding-bottom: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .artisanshub {
+    font-size: var(--font-size-5xl);
+  }
+  .create-account {
+    font-size: var(--font-size-lg);
+  }
+  .enter-password,
+  .enter-username,
+  .password,
+  .username {
+    font-size: var(--font-size-base);
+  }
+  .facebook-btn,
+  .google-btn {
+    flex: 1;
+  }
+  .google-btn-parent {
+    flex-wrap: wrap;
+    gap: 58px 29px;
+  }
+  .artisans-hub-logo-parent {
+    gap: 18px 71px;
+  }
+  .sign-up-page-inner {
+    padding-top: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+  .sign-up-page {
+    height: auto;
+  }
+}
