@@ -423,12 +423,18 @@
   padding: var(--padding-71xl) 0 0;
   max-width: calc(100% - 722px);
 }
-.sign-up-page,
-.signup-desktop {
+.sign-up-page {
   background-color: var(--color-white);
   overflow: hidden;
   flex-direction: row;
 }
+
+.signup-desktop {
+  background-color: #eeddcc;
+  overflow: hidden;
+  flex-direction: row;
+}
+
 .sign-up-page {
   height: 934px;
   width: 1285px;
