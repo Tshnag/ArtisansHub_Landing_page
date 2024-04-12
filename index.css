@@ -2155,7 +2155,12 @@
   color: rgba(179, 27, 27, 0.2);
   font-family: Lato;
 }
+
 .pastel-long-sleeve-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
   flex-direction: column;
   gap: 0.806rem;
 }
@@ -2164,13 +2169,6 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  max-width: 100%;
-}
-
-.pastel-long-sleeve-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   max-width: 100%;
 }
 
