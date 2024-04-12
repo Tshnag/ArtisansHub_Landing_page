@@ -2156,7 +2156,6 @@
   font-family: Lato;
 }
 .pastel-long-sleeve-container {
-  flex: 1;
   flex-direction: column;
   gap: 0.806rem;
 }
