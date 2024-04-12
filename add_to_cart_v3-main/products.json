@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": " Handcrafted Handlooms",
+    "exprice": 999,
+    "price": 999,
+    "image": "image/1x.png"
+  },
+  {
+    "id": 2,
+    "name": " Handcrafted Handlooms",
+    "exprice": 999,
+    "price": 1200,
+    "image": "image/2x.png"
+  },
+  {
+    "id": 3,
+    "name": " Empower Plate",
+    "exprice": 999,
+    "price": 290,
+    "image": "image/3x.png"
+  },
+  {
+    "id": 4,
+    "name": " Musician Kitty",
+    "exprice": 999,
+    "price": 200,
+    "image": "image/4x.png"
+  },
+  {
+    "id": 5,
+    "name": " Canva Lickin Good",
+    "exprice": 999,
+    "price": 300,
+    "image": "image/5x.png"
+  },
+  {
+    "id": 6,
+    "name": " Hoodiee Long Sleeve",
+    "exprice": 999,
+    "price": 200,
+    "image": "image/6x.png"
+  },
+  {
+    "id": 7,
+    "name": " Soft Toys (Teddy Bears)",
+    "exprice": 999,
+    "price": 200,
+    "image": "image/7x.png"
+  },
+  {
+    "id": 8,
+    "name": " Unique Dream Catcher",
+    "exprice": 999,
+    "price": 200,
+    "image": "image/8x.png"
+  }
+]
