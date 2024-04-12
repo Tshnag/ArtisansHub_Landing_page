@@ -2161,8 +2161,7 @@
   gap: 0.806rem;
 }
 .frame-wrapper11,
-.image-parent,
-.pastel-long-sleeve-container {
+.image-parent {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -2170,8 +2169,10 @@
 }
 
 .pastel-long-sleeve-container {
+  display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 100%;
 }
 
 .frame-wrapper11 {
