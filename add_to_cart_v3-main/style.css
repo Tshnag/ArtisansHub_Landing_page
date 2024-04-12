@@ -56,7 +56,7 @@ header {
 }
 .listProduct .item {
   background-color: #fff;
-  padding: 0 0 40px;
+  /* padding: 0 0 40px; */
   /* border-radius: 20px; */
 }
 .listProduct .item h2 {
