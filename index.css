@@ -2303,6 +2303,12 @@
   color: rgba(194, 10, 10, 0.2);
   font-family: Lato;
 }
+.frame-wrapper14, .pastel-long-sleeve-parent1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
 .pastel-long-sleeve-parent1 {
   flex: 1;
   flex-direction: column;
@@ -2311,17 +2317,12 @@
 .frame-wrapper13,
 .image-group {
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  max-width: 100%;
-}
-
-.frame-wrapper14, .pastel-long-sleeve-parent1 {
-  display: flex;
   align-items: center;
   justify-content: center;
   max-width: 100%;
 }
+
+
 
 .frame-wrapper14 {
   width: 23rem;
