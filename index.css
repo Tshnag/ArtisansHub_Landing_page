@@ -2073,18 +2073,14 @@
   height: 1.069rem;
   position: relative;
 }
-.b4,
-.div1 {
-  width: 2.063rem;
+.b4 {
+  /* width: 2.063rem; */
   position: relative;
   line-height: 180%;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   display: inline-block;
-  min-width: 2.063rem;
-  white-space: nowrap;
-}
-.div1 {
-  text-decoration: line-through;
+  /* min-width: 2.063rem; */
+  /* white-space: nowrap; */
 }
 .b4 {
   color: rgba(52, 37, 31, 0.9);
@@ -2151,7 +2147,7 @@
 .frame-parent20 {
   align-self: stretch;
   gap: 3.444rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
   color: rgba(179, 27, 27, 0.2);
   font-family: Lato;
 }
