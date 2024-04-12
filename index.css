@@ -2061,9 +2061,9 @@
 }
 .pastel-long-sleeve3 {
   margin: 0;
-  width: 14.125rem;
+  /* width: 14.125rem; */
   position: relative;
-  font-size: inherit;
+  font-size: 1.6rem;
   font-weight: 700;
   font-family: inherit;
   display: inline-block;
@@ -2190,9 +2190,9 @@
 }
 .pastel-long-sleeve4 {
   margin: 0;
-  width: 14.125rem;
+  /* width: 14.125rem; */
   position: relative;
-  font-size: inherit;
+  font-size: 1.6rem;
   font-weight: 700;
   font-family: inherit;
   display: inline-block;
@@ -2349,7 +2349,7 @@
 }
 .empower-plate {
   margin: 0;
-  font-size: inherit;
+  font-size: 1.6rem;
   font-weight: 700;
   font-family: inherit;
 }
@@ -2359,12 +2359,12 @@
   position: relative;
 }
 .empower-plate-parent {
-  width: 8.688rem;
-  display: flex;
+  /* width: 8.688rem; */
+  /* display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 0.563rem;
+  gap: 0.563rem; */
 }
 .rs-1499 {
   align-self: stretch;
@@ -4649,8 +4649,7 @@
     flex-wrap: wrap;
     gap: 1.813rem;
   }
-  .add-to-cart4,
-  .empower-plate {
+  .add-to-cart4 {
     font-size: 1rem;
   }
   .frame-parent25 {
