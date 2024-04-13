@@ -179,13 +179,22 @@ body.showCart .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-.cartTab button {
+/* .cartTab button {
+  background-color: #e8bc0e;
+  border: none;
+  font-family: Poppins;
+  font-weight: 500;
+  cursor: pointer;
+} */
+
+.checkOut {
   background-color: #e8bc0e;
   border: none;
   font-family: Poppins;
   font-weight: 500;
   cursor: pointer;
 }
+
 .cartTab .close {
   background-color: #eee;
 }
