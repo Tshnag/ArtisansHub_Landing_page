@@ -167,7 +167,6 @@
   background-color: transparent;
   height: 30px;
   position: relative;
-  text-transform: capitalize;
   color: var(--color-gray-100);
   text-align: left;
   display: inline-block;
