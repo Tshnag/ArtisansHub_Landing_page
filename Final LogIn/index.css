@@ -296,12 +296,19 @@
   padding: var(--padding-71xl) 0 0;
   max-width: calc(100% - 723px);
 }
-.login-desktop,
+
 .login-page {
   background-color: var(--color-white);
   overflow: hidden;
   flex-direction: row;
 }
+
+.login-desktop {
+  background-color: #eeddcc;
+  overflow: hidden;
+  flex-direction: row;
+}
+
 .login-page {
   height: 932px;
   width: 1283px;
