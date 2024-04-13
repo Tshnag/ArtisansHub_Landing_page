@@ -9,6 +9,7 @@ let body = document.querySelector('body');
 let closeCart = document.querySelector('.close');
 let products = [];
 let cart = [];
+let v1 = document.querySelector('')
 
 
 btnCartIcon.addEventListener('click', () => {
