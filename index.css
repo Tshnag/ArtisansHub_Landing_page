@@ -2324,10 +2324,12 @@
 
 .card-click-redirect-to-cart:link, .card-click-redirect-to-cart:visited {
   color: #34251f;
+  text-decoration: none;
 }
 
 .card-click-redirect-to-cart:hover, .card-click-redirect-to-cart:active {
   color: #665952;
+  text-decoration: none;
 }
 .frame-wrapper14 {
   width: 23rem;
