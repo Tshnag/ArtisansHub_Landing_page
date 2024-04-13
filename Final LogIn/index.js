@@ -3,7 +3,6 @@ import { getAuth } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-aut
 import { getDatabase } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-database.js";
 
 
-
 const firebaseConfig = {
   apiKey: "AIzaSyDu43Bd3Dn-492piLtir1U2dkh0y8IrGvQ",
   authDomain: "artisanshub-f39c4.firebaseapp.com",
@@ -21,7 +20,6 @@ const app = initializeApp(firebaseConfig);
 //Initialize variables
 const auth = getAuth(app);
 const database = getDatabase(app);
-
 
 
 //Set up register function
