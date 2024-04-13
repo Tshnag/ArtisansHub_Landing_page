@@ -239,12 +239,12 @@
   color: var(--color-gray);
 }
 .create-account {
-  text-decoration: underline;
-  color: var(--color-royalblue);
-  border: none;
+  /* text-decoration: underline; */
+  /* color: var(--color-royalblue); */
+  /* border: none;
   background-color: white;
   padding: 1px;
-  cursor: pointer;
+  cursor: pointer; */
 }
 .dont-have-an-container {
   position: relative;
