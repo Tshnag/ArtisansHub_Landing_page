@@ -62,10 +62,10 @@ const auth = getAuth(app);
 const submit = document.getElementById('create-account-btn');
 submit.addEventListener('click', function (event) {
   event.preventDefault()
-
+  
   //Inputs
-  const email = document.getElementById('username-input').value;
-  const password = document.getElementById('password-input').value;
+  const email = document.getElementById('username-input-input').value;
+  const password = document.getElementById('password-input-input').value;
 
 
   signInWithEmailAndPassword(auth, email, password)
