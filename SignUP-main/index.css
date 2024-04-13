@@ -319,6 +319,7 @@
   justify-content: center;
   gap: var(--gap-3xs);
   min-width: 128px;
+  width: 100%;
 }
 .facebook-logo-1-streamline-co-icon {
   height: 26.5px;
