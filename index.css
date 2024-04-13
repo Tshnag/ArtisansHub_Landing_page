@@ -2352,6 +2352,11 @@
   align-self: stretch;
   position: relative;
 }
+
+.kalbc {
+  text-decoration: none;
+}
+
 .image-icon8 {
   height: 25.356rem;
   max-width: 100%;
