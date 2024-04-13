@@ -187,12 +187,14 @@ body.showCart .container {
   cursor: pointer;
 } */
 
-.checkOut {
+.checkOut:link, .checkOut:visited {
   background-color: #e8bc0e;
   border: none;
   font-family: Poppins;
   font-weight: 500;
   cursor: pointer;
+  text-decoration: none;
+  color: #000;
 }
 
 .cartTab .close {
