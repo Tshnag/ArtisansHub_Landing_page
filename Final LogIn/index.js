@@ -74,11 +74,12 @@ submit.addEventListener('click', function (event) {
       const user = userCredential.user;
       alert("Loggin in...")
       // ...
+      window.location.href = "../index.html";
     })
     .catch((error) => {
       const errorCode = error.code;
       const errorMessage = error.message;
-      alert(errorMessage)
+      alert("Wrong Email or Password entered")
       // ..
     });
 })
