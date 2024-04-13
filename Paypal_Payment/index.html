@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Paypal Payment Session</title>
+    <link href="style.css" rel="stylsheet" type="text/css" />
+</head>
+<body>
+    <div id="paypal-button-container"></div>
+
+    <script src="https://www.paypal.com/sdk/js?client-id=AXp6ZfmF5LFhi-V3DDAWzZKTo85SHlPPaPFJKEX5R3uRa-KdBiLvE50PlVNPB6oOosh48qNMZLmdFI_D"></script>
+    
+    <script>
+        paypal.Buttons({
+            createOrder: function(data,actions){
+
+                return actions.order.create({
+                    purchase_units: [{
+                        amount: {
+                            value: '299.99'
+                        }
+                    }]
+                });
+            }
+        }).render('#paypal-button-container')
+    </script>
+
+
+</body>
+</html>
