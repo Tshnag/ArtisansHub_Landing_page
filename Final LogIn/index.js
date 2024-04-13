@@ -64,8 +64,8 @@ submit.addEventListener('click', function (event) {
   event.preventDefault()
 
   //Inputs
-  const email = document.getElementById('email').value;
-  const password = document.getElementById('password').value;
+  const email = document.getElementById('username-input').value;
+  const password = document.getElementById('password-input').value;
 
 
   signInWithEmailAndPassword(auth, email, password)
