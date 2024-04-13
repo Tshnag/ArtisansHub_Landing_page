@@ -59,7 +59,7 @@ const auth = getAuth(app);
 
 
 //submit(create acc)
-const submit = document.getElementById('submit');
+const submit = document.getElementById('create-account-btn');
 submit.addEventListener('click', function (event) {
   event.preventDefault()
 
@@ -72,7 +72,7 @@ submit.addEventListener('click', function (event) {
     .then((userCredential) => {
       // Signed up 
       const user = userCredential.user;
-      alert("Creating Account...")
+      alert("Loggin in...")
       // ...
     })
     .catch((error) => {
