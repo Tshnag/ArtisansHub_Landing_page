@@ -1,5 +1,5 @@
 "use strict";
-
+//buttons
 let listProductHTML = document.querySelector('.listProduct');
 let listCartHTML = document.querySelector('.listCart');
 let btnCartIcon = document.querySelector('.btn-cart-icon');
