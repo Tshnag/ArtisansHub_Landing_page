@@ -367,10 +367,6 @@
 .already-have-an {
   color: var(--color-gray);
 }
-.log-in {
-  text-decoration: underline;
-  color: var(--color-royalblue);
-}
 .already-have-an-container {
   position: relative;
   font-size: var(--font-size-sm);
