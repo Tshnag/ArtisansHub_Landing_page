@@ -73,6 +73,7 @@ submit.addEventListener('click', function (event) {
       const user = userCredential.user;
       alert("Creating Account...")
       // ...
+      window.location.href = "../Final LogIn/index.html";
     })
     .catch((error) => {
       const errorCode = error.code;
